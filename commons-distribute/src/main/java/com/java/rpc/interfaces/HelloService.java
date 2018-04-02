@@ -1,5 +1,7 @@
 package com.java.rpc.interfaces;
 
+import com.java.rpc.model.Student;
+
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
@@ -11,5 +13,5 @@ import java.rmi.RemoteException;
  * Date: 18/3/28
  */
 public interface HelloService extends Remote {
-    String sayHello(String someOne) throws RemoteException;
+    Student sayHello(Student someOne) throws RemoteException;
 }

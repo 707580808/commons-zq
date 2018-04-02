@@ -21,7 +21,7 @@ public class ServerMain {
         RMISocketFactory.setSocketFactory(new CustomerSocketFactory());
         HelloService helloService=new HelloServiceIml();
 
-        Naming.bind("rmi://localhost:8081/helloService",helloService);
+        Naming.bind("rmi://192.168.116.214:8081/helloService",helloService);
         System.out.println("ServerMain provide service now");
     }
 }

@@ -1,6 +1,7 @@
 package com.java.rpc.server;
 
 import com.java.rpc.interfaces.HelloService;
+import com.java.rpc.model.Student;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
@@ -18,7 +19,10 @@ public class HelloServiceIml extends UnicastRemoteObject implements HelloService
     }
 
     @Override
-    public String sayHello(String someOne) throws RemoteException {
+    public Student sayHello(Student someOne) throws RemoteException {
+        Student student = new Student();
+        student.setId("1");
+        student.setName("zq");
         return someOne;
     }
 }
