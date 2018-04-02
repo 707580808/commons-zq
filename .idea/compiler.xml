@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="commons-distribute" />
         <module name="commons-io" />
+        <module name="middle-ware" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="commons-distribute" target="1.8" />
       <module name="commons-io" target="1.8" />
       <module name="commons-zq" target="1.8" />
+      <module name="middle-ware" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

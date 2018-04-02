@@ -1,5 +1,7 @@
 package com.java.rpc.model;
 
+import java.io.Serializable;
+
 /**
  * Copyright (C), 2016-2017 中盈优创
  * Student
@@ -7,8 +9,8 @@ package com.java.rpc.model;
  * @Author: zhuqiang
  * @Date: 18/4/2
  */
-public class Student {
-    private String id;
+public class Student implements Serializable{
+    private transient String id;
     private String name;
 
     public String getId() {

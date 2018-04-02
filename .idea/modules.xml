@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/commons-distribute/commons-distribute.iml" filepath="$PROJECT_DIR$/commons-distribute/commons-distribute.iml" />
       <module fileurl="file://$PROJECT_DIR$/commons-io/commons-io.iml" filepath="$PROJECT_DIR$/commons-io/commons-io.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/commons-zq.iml" filepath="$PROJECT_DIR$/.idea/commons-zq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/middle-ware/middle-ware.iml" filepath="$PROJECT_DIR$/middle-ware/middle-ware.iml" />
     </modules>
   </component>
 </project>

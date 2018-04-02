@@ -23,6 +23,6 @@ public class HelloServiceIml extends UnicastRemoteObject implements HelloService
         Student student = new Student();
         student.setId("1");
         student.setName("zq");
-        return someOne;
+        return student;
     }
 }
