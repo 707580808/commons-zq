@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="commons-distribute" />
+        <module name="commons-io" />
+        <module name="middle-ware" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="commons-distribute" target="1.5" />
+      <module name="commons-io" target="1.5" />
+      <module name="commons-zq1" target="1.5" />
+      <module name="middle-ware" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

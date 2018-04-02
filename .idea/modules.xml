@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/commons-distribute/commons-distribute.iml" filepath="$PROJECT_DIR$/commons-distribute/commons-distribute.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons-io/commons-io.iml" filepath="$PROJECT_DIR$/commons-io/commons-io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/commons-zq1.iml" filepath="$PROJECT_DIR$/.idea/commons-zq1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/middleware/middle-ware.iml" filepath="$PROJECT_DIR$/middleware/middle-ware.iml" />
+    </modules>
+  </component>
+</project>
